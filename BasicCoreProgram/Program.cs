@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace BasicCoreProgram
 {
-    internal class FlipCoinProgram
+    internal class FlipCoin1
     {
         static void Main(string[] args )
         {
-            Console.WriteLine("Welcome to Basic Core Program");
+            //Console.WriteLine("Welcome to Basic Core Program");
             FlipCoinProgram1 program = new FlipCoinProgram1();
-            program.PercentageCheck();
+            //program.PercentageCheck();
+            program.CheckLeapYear();
+
             Console.ReadLine();
         }
     }
